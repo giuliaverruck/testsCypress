@@ -52,7 +52,6 @@ Isso iniciará a execução dos testes em modo headless. Para executar no modo i
 ```
 npm run cypress:open
 ```
-
 ## Licença
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
