@@ -14,13 +14,13 @@ Após a instalação, siga estas etapas:
 1. Clone este repositório:
 
    ```
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/giuliaverruck/testsCypress.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```
-   cd seu-projeto
+   cd testsCypress
    ```
 
 3. Instale as dependências:
@@ -52,12 +52,6 @@ Isso iniciará a execução dos testes em modo headless. Para executar no modo i
 ```
 npm run cypress:open
 ```
-
-## Contribuindo
-
-Se você quiser contribuir para este projeto, sinta-se à vontade para abrir uma Issue ou enviar um Pull Request. Estamos abertos a melhorias e sugestões.
-
 ## Licença
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
-```
