@@ -1,26 +1,11 @@
-/// <reference types="cypress" />
-import authPageLocators from '../../support/pages/auth/authPage'
-
-var nome = 'Giulia'
-var sobrenome = "Verruck Tortola"
-var escolaridade = "especializacao"
-
-describe('Página teste', () =>{
-
-beforeEach(() => {
-cy.visit('https://automationexercise.com/')
-cy.redirectLoginPage()
-})
 
 
 it('Validação cadastro', ()=> { 
-    cy.cadastro(nome,sobrenome,escolaridade)
-    cy.get('#formCadastrar').click()
-    cy.get('#descNome > span').should('have.text', nome, {timeout: 2000})
-    cy.get('#descSobrenome > span').should('have.text', sobrenome, {timeout: 2000})
-    cy.get('#descEscolaridade > span').should('have.text', escolaridade, {timeout: 2000})
+    cy.get(authPageLocators.emailRegisterInput).type(email);
+    cy.get(authPageLocators.nameRegisterInput).type(name);
+    cy.get(authPageLocators.registerButton).click();
 })
-})
+
 
 
 // 2. Navigate to url 'http://automationexercise.com'
