@@ -1,5 +1,5 @@
 import authPageLocators from '../../locators/auth/authPageLocators';
-import url from ''
+
 class AuthPage {
   // Funções para interagir com elementos da página de autenticação
   static login(username, password) {
