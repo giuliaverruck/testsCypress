@@ -39,6 +39,6 @@ describe('template spec', () => {
     cy.get('#zipcode').type(zipCode)
     cy.get('#mobile_number').type(mobileNumber)
     cy.get('[data-qa="create-account"]').click()
-   // cy.get('b').should('have.value',"ACCOUNT CREATED!")
+   // cy.get('b').should('have.value',"ACCOUNT CREATED!")JJJ
   })
 })
